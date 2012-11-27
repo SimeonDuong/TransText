@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">TextTrans</string>
+    
+    <string name="lang_prompt">Choose a language to translate</string>
+    
+    <string-array name="lang_arrays">
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Italian</item>
+    </string-array>
+
+</resources>

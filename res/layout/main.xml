@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+<TextView
+    android:id="@+id/intro"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Enter some English text:" />
+
+<EditText android:id="@+id/enter"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+/>
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Select language to translate to:" />
+
+<Spinner
+    android:id="@+id/langspinner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:entries="@array/lang_arrays"
+    android:prompt="@string/lang_prompt" />
+
+<Button
+    android:id="@+id/trans"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Translate" 
+    android:onClick= "postTrans"/>
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TranslatesHere" />
+
+<Button
+    android:id="@+id/talk"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Speak Now!" />
+
+</LinearLayout>
